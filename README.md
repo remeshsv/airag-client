@@ -6,6 +6,11 @@ This is a REACT frontend that has a page on which we could do the following thin
 2. Chat with Gemini powered RAG featuring a few PDFs about Movie-making.
 3. Admin access - can upload the PDFs to vector store in PostGres
 
+# Roles
+Admin, User
+
+Currently the log in details are directly filled into the postgres table under "users" table.
+
 
 # React + TypeScript + Vite
 
