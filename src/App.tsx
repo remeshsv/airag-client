@@ -73,7 +73,6 @@ export default function App() {
     const q = questionChat.trim();
     const t = localStorage.getItem("token");
     if (!t) return;
-    console.log("Using token:", t);
     if (!q) {
       setError("Please enter a question.");
       return;
@@ -120,7 +119,6 @@ export default function App() {
   // Restore token and role from localStorage on mount
   useEffect(() => {
     const t = localStorage.getItem("token");
-    console.log("Restoring token from localStorage:", t);
     if (!t) return;
     (async () => {
       try {
@@ -168,7 +166,6 @@ export default function App() {
         // Expected response: { token: "..jwt..", role: "ADMIN" }
         if (data?.token) {
           localStorage.setItem("token", data.token);
-          console.log("Received token:", data.token);
           setToken(data.token);
         }
         if (data?.role) setRole(data.role as Role);
