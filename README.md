@@ -6,6 +6,8 @@ This is a REACT frontend that has a page on which we could do the following thin
 2. Chat with Gemini powered RAG featuring a few PDFs about Movie-making.
 3. Admin access - can upload the PDFs to vector store in PostGres
 
+   Backend : https://github.com/remeshsv/remesh-AI-RAG-Example
+
 # Roles
 Admin, User
 
