@@ -11,6 +11,17 @@ Admin, User
 
 Currently the log in details are directly filled into the postgres table under "users" table.
 
+# Pages
+Login as Admin or User
+<img width="1497" height="850" alt="image" src="https://github.com/user-attachments/assets/0c0b8669-7751-41e8-b516-6697f91b472b" />
+`````````
+If Admin, you can do three things
+1. Ask about movies, its making and history
+2. Ask General questions on chat at right-side bottom
+3. Add PDFs to the knowledge base that can be used for Point 1.
+
+<img width="1552" height="912" alt="image" src="https://github.com/user-attachments/assets/a4b9a9d9-17ab-4b7f-a885-db57efac4a4e" />
+
 
 # React + TypeScript + Vite
 
