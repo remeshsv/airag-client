@@ -22,6 +22,7 @@ If Admin, you can do three things
 
 <img width="1552" height="912" alt="image" src="https://github.com/user-attachments/assets/a4b9a9d9-17ab-4b7f-a885-db57efac4a4e" />
 
+But as User we cannot upload PDFs.
 
 # React + TypeScript + Vite
 
